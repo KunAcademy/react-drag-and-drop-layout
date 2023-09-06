@@ -1,6 +1,4 @@
 'use client'
-
-// import './globals.css'
 import '../styles/global.scss';
 import { Providers } from './providers';
 
