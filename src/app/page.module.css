@@ -5,3 +5,9 @@
   padding: 6rem;
   min-height: 100vh;
 }
+
+.buttonWrapper {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
