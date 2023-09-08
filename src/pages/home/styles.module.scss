@@ -1,8 +1,33 @@
 .container {
-  background-color: red;
   width: 100%;
-  max-width: 60vw;
+  max-width: 90vw;
+  height: 95vh;
   margin: 20px auto;
   display: flex;
   justify-content: center;
+  gap: 10px;
+  // background-color: #e8e8e8;
+
+  .pdfContainer {
+    width: 70%;
+    background-color: white;
+    border-radius: 10px;
+  }
+}
+
+.droppableItem {
+  border: 1px solid black;
+  width: 100%;
+}
+
+.itemDrag {
+  border: 1px solid black;
+}
+
+.formCreate {
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: white;
+  width: 30%;
+  padding: 15px;
 }
